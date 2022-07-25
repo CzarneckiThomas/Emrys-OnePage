@@ -1,0 +1,127 @@
+.container{
+    width: 30%;
+    height: 130vh;
+    box-shadow: 3px 6px 30px rgb(62, 108, 209);
+    margin: auto;
+    text-align: center;
+
+
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header img{
+    width:25%;
+    border-radius : 50%;
+    border : 2px solid rgb(11, 30, 138);
+    box-shadow: 7px 7px 7px rgb(93, 113, 180);
+}
+
+h1{
+    font-size: 1.4em;
+}
+
+h2{
+    margin-top: 15px;
+}
+
+h3{
+    margin-top: 40px;
+    text-decoration: underline;
+}
+.video{
+    width:80%;
+    margin-bottom: 20px;
+}
+
+p{
+    font-size: 1.2em;
+    color: rgb(102, 98, 98);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+a{
+    text-decoration: none;
+}
+.image2 {
+    max-width: 1em;
+margin-right:5px;
+vertical-align: baseline;
+}
+
+.onglet{
+    width: 90%;
+    border: 2px solid black;
+    box-shadow: 0 5px 0px black;
+    display: flex;
+    margin-left:auto;
+    margin-right: auto;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.onglet a{
+    width: 100%;
+}
+.logo{
+    width:10%;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: inline-block;
+    margin-left: 10px;
+}
+.titre{
+width: 100%;
+text-align: center;
+
+
+}
+.titre {
+    font-weight: bold;
+    color: black;
+    font-size: 1em;
+}
+.onglet img{
+    max-width: 50%;
+}
+
+.hamecon{
+line-height:25px;
+margin-bottom: 20px;
+font-style: italic;
+
+}
+
+.reseaux{
+    display: flex;
+    justify-content: center;
+}
+
+.reseaux img{
+    max-width: 30px;
+    padding: 10px;
+}
+
+.onglet:hover{
+    background-color: rgb(41, 129, 201);
+}
+
+.clignote {
+    color:rgb(230, 48, 24);
+    animation: clignote 2s linear infinite;
+  }
+
+@keyframes clignote {  
+    50% { opacity: 0; }
+  }
+
+@media (max-width: 480px) {
+    .container{
+       width: 100% ;
+    }
+  }
+
